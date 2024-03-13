@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'VTEX Language Hub',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
@@ -21,6 +21,30 @@ export default defineConfig({
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
+				{
+					label: 'Style Guides',
+					items: [
+						{ label: 'Example doc', link: '/style_guides/temp/' },
+					],
+				},
+				{
+					label: 'Glossaries',
+					items: [
+						{ label: 'Example doc', link: '/glossaries/temp/' }
+					],
+				},
+				{
+					label: 'Translation Memories',
+					items: [
+						{ label: 'Example doc', link: '/translation_memories/temp/' }
+					],
+				},
+				{
+					label: 'Admin Review Logs',
+					items: [
+						{ label: 'Example doc', link: '/admin_review_logs/temp/' }
+					],
+				}
 			],
 		}),
 	],
