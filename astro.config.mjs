@@ -18,10 +18,6 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-				{
 					label: 'Style Guides',
 					items: [
 						{ label: 'Example doc', link: '/style_guides/temp/' },
