@@ -22,25 +22,25 @@ export default defineConfig({
 				{
 					label: 'Style Guides',
 					items: [
-						{ label: 'Example doc', link: '/style_guides/temp/' },
+						{ label: 'EN Localization', link: '/style_guides/temp/' },
 					],
 				},
 				{
 					label: 'Glossaries',
 					items: [
-						{ label: 'Example doc', link: '/glossaries/temp/' }
+						{ label: 'Localization', link: '/glossaries/temp/' }
 					],
 				},
 				{
 					label: 'Translation Memories',
 					items: [
-						{ label: 'Example doc', link: '/translation_memories/temp/' }
+						{ label: 'Localization', link: '/translation_memories/temp/' }
 					],
 				},
 				{
 					label: 'Admin Review Logs',
 					items: [
-						{ label: 'Example doc', link: '/admin_review_logs/temp/' }
+						{ label: 'EN Admin standardization', link: '/admin_review_logs/temp/' }
 					],
 				}
 			],
